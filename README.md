@@ -1,7 +1,6 @@
 # Travel Search Ranking Platform
 ## Multi-Objective Learning-to-Rank System with Query Intent & Risk Guardrails
 
-**Built for: Expedia Group ML Science Interview**
 
 ---
 
