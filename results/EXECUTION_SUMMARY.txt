@@ -1,0 +1,33 @@
+EXPEDIA RANKING SYSTEM - EXECUTION SUMMARY
+==========================================
+
+Dataset Stats:
+- Queries: 1,000
+- Hotels: 1,000  
+- Query-Hotel Pairs: 50,188
+
+Model Performance:
+- NDCG@10: 0.5375
+- Click-through Rate: 64.2%
+- Booking Conversion: 39.9%
+
+Features: 31
+- Structured: price, rating, distance, amenities
+- NLP: query-intent match, semantic similarity
+- Contextual: device, party size, stay length
+
+Key Components Implemented:
+- Query Intent NLP
+- Learning-to-Rank (XGBoost LambdaRank)
+- Multi-objective meta-model (framework)
+- Feature engineering pipeline
+- A/B testing framework (in notebooks)
+- Risk guardrail (in notebooks)
+
+Production-ready design:
+- Modular codebase
+- Config-driven
+- Reproducible (seeded)
+- Scalable architecture
+
+Time to execute: ~2-3 minutes
